@@ -1,6 +1,8 @@
 # Mastodon-BanDataCenterVPNSSignup
 A Nginx Config File that Blocks Datacenter and VPN IPs from Mastodon's Signup Page
 
+Note: this is only being used for a lockdown situation, but this is not currently being used.
+
 ## Why block Datacenter and VPNs?
 VPNs and VPN servers from datacenters (VPS) can be used to hide the user's IP address. A VPN (Virtual Private Network) encrypts the user traffic and hides the user's actual IP address. This makes it ripe for bad actors like trolls and spammers to create accounts and do things like SPAM. trolling, and/or harass users.
 
